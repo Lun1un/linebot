@@ -37,9 +37,9 @@ from linebot.models import *
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('channl access token')
-handler = WebhookHandler('secrect key ')
-my_user_id = 'Your UserID'
+line_bot_api = LineBotApi('iE74gCPxe9YbglEPUYlSaL9H5jNFv9/vLBhvifkZAc8RPe8NUhKeNkRaPfvlmrGViakhPGZdat5hnN1wQgkp9ZFtIeW/mauMKOtiJtDT9jdMFCFkm8AkAEeib68gIUwgNmJftFHORkmyZZaXv5zX2AdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('34353ee0ede10c837ba3082f4476833c ')
+my_user_id = '1656394394'
 line_bot_api.push_message(my_user_id, TextSendMessage(text="start"))
 @app.route("/")
 def home():
